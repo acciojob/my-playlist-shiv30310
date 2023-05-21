@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+body{
+	background:#cccccc
+}
+
+.title{
+	font-size:20px;
+	font-weight:600;
+	text-align:center;
+}
+a{
+	display:flex;
+	color:black;
+	text-decoration:none;
+}
+.player_one {
+	background:white;
+	border-style: solid;	
+}
+.player_two{
+	display:block;
+	background:white;
+	border-style: solid;	
+	border-color:black;
+	width: 350px;
+	margin-left:140px;
+}
+
+.player_two > video {
+	padding: 15px;
+}
+.div > audio {
+	padding: 15px;
+}
